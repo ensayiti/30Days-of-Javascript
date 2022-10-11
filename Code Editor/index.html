@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <!--! LESS -->
+    <link rel="stylesheet/less" type="text/css" href="./styles.less" />
+    <script src="./less.js" type="text/javascript"></script>
+    <!--! Google Font 'Poppins' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!--! Title -->
+    <main class="view">
+      <h1 class="title">
+        Code Editor
+        <small>With syntax highlight</small>
+      </h1>
+
+      <!--!  !-->
+      <div class="window">
+        <div class="window-header">
+          <div class="action-buttons"></div>
+          <select class="language">
+            <option value="javascript" selected>Javascript</option>
+            <option value="markup">HTML</option>
+            <option value="php">PHP</option>
+          </select>
+        </div>
+
+        <!--! Window Body -->
+        <div class="windows-body">
+          <textarea class="code-input"></textarea>
+          <pre class="code-output">
+          <code class="language-javascript">
+
+          </code>
+        </pre>
+        </div>
+      </div>
+
+      <!-- <div class="credits">*thanks to <a href="https://twitter.com/leaverou">Lea Verou</a> for <a href="http://prismjs.com/">Prism.js</a></div> -->
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
