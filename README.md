@@ -27,7 +27,7 @@
 <br/>
 • Use blank project and try to retype all codes
 <br/>
-• Zero Dependencies
+• Almost zero dependencies. For some project use SCSS or LESS
 <br/>
 • All of code, files and references is the result from my journey in Github (lol)
 
